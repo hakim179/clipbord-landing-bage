@@ -1,0 +1,298 @@
+:root{
+    --StrongCyan: hsl(171, 66%, 44%);
+--LightBlue: hsl(233, 100%, 69%);
+--DarkGrayishBlue: hsl(210, 10%, 33%);
+--GrayishBlue: hsl(201, 11%, 66%);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-Bold.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-Italic.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-Light.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-LightItalic.ttf);
+} 
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-Medium.ttf);
+}    
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-MediumItalic.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(/Bai_Jamjuree/BaiJamjuree-SemiBoldItalic.ttf);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'cairo';
+}
+
+body{
+    text-align:center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+body header {
+    padding: 40px;
+   background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+   background-position: center;
+   background-size: cover;
+}
+body header .logo img{
+    margin: 30px 0px ;
+}
+body header .text :first-child{
+    color: var(--DarkGrayishBlue);
+     
+}
+body header .text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin: 20px;
+}
+
+body header .links a{
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+body header .links :first-child{
+    background-color: var(--StrongCyan);
+}
+
+body header .links :nth-child(2){
+    background-color: var(--LightBlue);
+}
+
+body .detalis{
+    padding: 50px;
+    ;
+}
+
+
+
+body .detalis .details-text :first-child{
+    margin-bottom:15px ;
+    color: var(--DarkGrayishBlue);
+}
+body .detalis .details-text :nth-child(2){
+    color: var(--GrayishBlue);
+    margin-bottom: 50px;
+}
+body .detalis .details-device .device-img img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+body .detalis .details-device .details-secs .sec{
+    margin: 25px 0px;
+}
+body .detalis .details-device .details-secs .sec :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom: 15px;
+}
+body .detalis .details-device .details-secs .sec :nth-child(2){
+    color: var(--GrayishBlue);
+}
+body .clipboard {
+    padding: 50px;
+}
+body .clipboard :first-child{
+    color: var(--DarkGrayishBlue);
+    margin-bottom:15px ;
+}
+body .clipboard :nth-child(2){
+ margin-bottom: 50px;
+    color: var(--GrayishBlue);
+}
+body .clipboard img{
+    width: 100%;
+}
+body .charge{
+    padding: 55px;
+}
+body .charge .head-ofcharge{
+    margin:40px ;
+}
+body .charge .head-ofcharge :first-child{
+    color: var(--DarkGrayishBlue);
+     margin: 15px;
+}
+body .charge .head-ofcharge :nth-child(2){
+    color: var(--GrayishBlue);
+}
+body .charge .charge-details .charge-secs .sec{
+    margin: 30px;
+}body .charge .charge-details .charge-secs .sec :first-child{
+    margin: 25px;
+}
+body .charge .charge-details .charge-secs .sec :nth-child(2){
+    color: var(--DarkGrayishBlue);
+    margin: 15px;
+}
+body .charge .charge-details .charge-secs .sec :nth-child(3){
+    color: var(--GrayishBlue);
+}
+body .charge .charge-details .charge-imges img {
+    
+    display: block;
+    margin: 45px auto;
+}
+
+body .Download {
+    padding: 60px;
+}
+body .Download .Download-text :first-child{
+    color: var(--DarkGrayishBlue);
+}
+body .Download .Download-text :nth-child(2){
+    margin: 15px 0px;
+    color: var(--GrayishBlue);
+}
+body .links-download a {
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+
+}
+body .Download .links-download :nth-child(1){
+    background-color: var(--StrongCyan);
+}
+body .Download .links-download :nth-child(2){
+    background-color: var(--LightBlue);
+}
+body footer {
+    padding: 40px;
+    background-color: rgb(248, 246, 246);}
+body footer .logo img{
+    
+    width: 50px;
+    
+}
+body footer .links a {
+    display: block;
+    text-decoration: none;
+    margin: 15px 0px;
+    color: var(--GrayishBlue);
+}
+body footer .social img{
+    margin: 0px 15px;
+}
+
+@media (min-width: 1000px){
+
+    body header .text , body header .links{
+        width: 45%;
+        margin: 0px auto;
+    }
+    body header .text{
+        margin-bottom: 50px;
+    }
+    body header .links a {
+        display: inline;
+     margin: 0px 10px;
+        padding: 10px 25px;
+    }
+
+body .detalis .details-text {
+    width: 39%;
+    margin: 0px auto;
+}
+
+body .detalis .details-device {
+    display: flex;
+    
+    align-items: center;
+}
+body .detalis .details-device .device-img img{
+    width: 100%;
+    margin: 0 auto;
+}
+body .detalis .details-device .details-secs{
+    text-align: left;
+    width: 25%;
+    line-height: 30px;
+    margin:  0px  auto;
+}
+body .clipboard {
+    width: 45%;
+    margin: 0px auto;
+}
+body .charge .charge-secs{
+    display: flex;
+    justify-content: space-between;
+}
+body .charge .charge-secs .sec{
+    width: 33%;
+}
+body .charge .charge-imges {
+    display: inline-flex;
+    
+}
+body .charge .charge-imges img{
+    padding: 45px 45px;
+  
+}
+body .Download {
+    width: 39%;
+    margin: 0px auto;
+}
+body .Download .links-download a{
+    display: inline;
+    padding: 10px 25px;
+}
+  body footer {
+    display:flex ;
+    justify-content: space-between;
+  }
+  body footer .links{
+    text-align: left;
+    line-height: 35px;
+    width: 25%;
+  }
+  body footer .links a{
+    display: inline;
+    margin: 0 25px;
+    
+  }
+}
